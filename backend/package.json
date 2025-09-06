@@ -6,7 +6,6 @@
   "scripts": {
     "build:frontend": "npm --prefix ../frontend ci --include=dev && npm --prefix ../frontend run build",
     "start": "node server.js",
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
