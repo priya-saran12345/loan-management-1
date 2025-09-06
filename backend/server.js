@@ -54,7 +54,6 @@ app.use(cors({
     app.use('/api/wallet', walletRoutes);
     app.use('/api/extra-income', extraIncomeRoutes);
     app.use('/api/customers-lra', customerRoutesLra);
-
     // Serve frontend
     app.use(express.static(path.join(__dirname, "frontend/build")));
     app.get("/*", (req, res) => {
