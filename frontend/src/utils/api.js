@@ -3,7 +3,7 @@ import axios from 'axios';
 import { toast } from 'react-hot-toast';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://loan-management-1-0f58.onrender.com/api',
   withCredentials: true,
 });
 
